@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^shortfilmstars\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.shortfilmstars\.com$
+RewriteRule ^/?$ "http\:\/\/www\.shortfilmstars\.com\ " [R=301,L]
+
